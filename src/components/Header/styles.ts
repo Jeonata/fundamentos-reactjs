@@ -27,6 +27,11 @@ export const Container = styled.div<ContainerProps>`
           margin-left: 32px;
         }
 
+        &.active {
+          padding-bottom: 10px;
+          border-bottom: 3px solid #ff872c;
+        }
+
         &:hover {
           opacity: 0.6;
         }
